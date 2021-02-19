@@ -14,6 +14,9 @@ struct ContentView: View {
     
     //MARK: Computed properties
     var body: some View {
+        
+    
+        VStack{
         Text(someText)
             .padding()
             .onAppear(){
@@ -21,6 +24,10 @@ struct ContentView: View {
                 //this is the call site
                 fetchJoke()
 
+            }
+            
+            Button("Get another joke"){
+                fetchJoke()
             }
         
     }
