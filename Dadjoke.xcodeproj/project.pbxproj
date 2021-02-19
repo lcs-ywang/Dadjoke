@@ -55,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				3CDCDD2C25E01B83007FEB5F /* DadjokeApp.swift */,
-				3CDCDD2E25E01B83007FEB5F /* ContentView.swift */,
 				3CDCDD3025E01B91007FEB5F /* Assets.xcassets */,
 				3CDCDD3525E01B91007FEB5F /* Info.plist */,
 				3CDCDD3C25E01BB3007FEB5F /* Dadjoke.swift */,
@@ -67,6 +66,7 @@
 		3CDCDD3225E01B91007FEB5F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCDD2E25E01B83007FEB5F /* ContentView.swift */,
 				3CDCDD3325E01B91007FEB5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
